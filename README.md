@@ -1,12 +1,19 @@
 # IoT Weather Monitoring System
 
 ## Overview
-This project monitors temperature and humidity using ESP8266 and DHT11 sensor and sends real-time data to the cloud using Adafruit IO.
+This project monitors temperature and humidity using ESP8266 and DHT11 sensor and sends real-time data to the cloud using Adafruit IO. It also uses a machine learning model to predict future temperature and humidity values.
 
 ## Features
 - Real-time temperature & humidity monitoring
 - Cloud integration using Adafruit IO
 - Live data visualization dashboard
+- 
+  ## Prediction
+The system uses a Machine Learning model to predict future temperature and humidity values based on historical data.
+- Model Used: Random Forest model
+- Input: Historical sensor data
+- Output: Predicted future values (next few hours)
+This enhances the system from monitoring to intelligent forecasting.
 
 ## Components Used
 - ESP8266
@@ -16,7 +23,6 @@ This project monitors temperature and humidity using ESP8266 and DHT11 sensor an
 Sensor collects data → ESP8266 processes → Data sent to Adafruit IO → Visualized on dashboard.
 
 ## Future Scope
-- Machine Learning based prediction
 - Automation based on sensor data
 
 ## Author
