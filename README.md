@@ -21,3 +21,18 @@ Sensor collects data → ESP8266 processes → Data sent to Adafruit IO → Visu
 
 ## Author
 Lingutla Haneesh Kumar
+
+## Output
+
+### Circuit
+![Circuit](Circuit.jpeg)
+
+### Dashboard / Results
+![Output1](image.jpeg)
+![Output2](image1.jpeg)
+![Output3](image2.jpeg)
+![Output4](image3.jpeg)
+![Output5](image4.jpeg)
+![Output6](image5.jpeg)
+![Output7](image6.jpeg)
+
